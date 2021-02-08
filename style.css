@@ -1,0 +1,75 @@
+h1,h2 {color: solid black;
+	text-align: center;
+	background: #AA4139;
+	border: 50px solid #AA4139;
+	box-shadow: 50px 40px 50px 40px #888888;
+	font-family: Old English Text MT;
+	font-size: 40px
+}
+.btn-danger{
+   background-color: orange;
+}
+.btn-danger:hover{
+	background: color: black;
+}
+body {
+	background-image: url(https://images.unsplash.com/photo-1543946207-39bd91e70ca7?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+
+} 
+.container{
+	display: flex;
+	flex-wrap: wrap;
+     justify-content: center;
+      margin: 20px;
+
+}
+img {
+	width: 400px 
+	height: 300px;
+	margin: 10px;
+	transition: all: 1s;
+}
+img:hover{
+	transform: scale(1.1); 
+
+}
+p {
+	text-transform:lowercase;
+	line-height: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px
+}
+h3 {
+	font-family: Georgia;
+	font-size: 35px
+}
+h2 {color: white;
+	font-size: 50px
+}
+form {color: yellow;
+	font-family: Georgia;
+	font-size: 25px
+}
+h3 {color: gold;
+}
+h4 {color: #2D882D;
+	font-size: 30px
+	text-transform: underline;
+}
+h5 {color: pink;
+	font-size: 20px
+}
+p{color: #FFAEAA;
+}
+ul {color: yellow;
+	font-size: 20px
+}
+abbr {color: blue;
+}
+#div1 {
+	background-color: #AA4139;
+}
+span{
+	font-size: 2em
+}
